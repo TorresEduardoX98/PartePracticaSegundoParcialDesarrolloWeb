@@ -1,0 +1,40 @@
+.containersesion{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.containersesion .User{
+    width: 500px;
+    height: 450px;
+    background: rgba(255, 140, 0, 0.877);
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    box-sizing: border-box;
+    padding: 30px 20px;
+}
+.containersesion .User img{
+    border-radius: 50px;
+}
+
+.containersesion button{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:#333333;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#FFD27D;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+    }
